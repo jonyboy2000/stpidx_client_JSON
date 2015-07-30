@@ -1,0 +1,163 @@
+{
+   "step_assembly" : {
+      "-root" : "id1851",
+      "product" : [
+         {
+            "children" : "id1849 id1849 id1845 id1850",
+            "id" : "id1851",
+            "name" : "AS1_ASM",
+            "shape" : "id1875",
+            "step" : "part_AS1_ASM.stp"
+         },
+         {
+            "children" : "id1847 id1847 id1847 id1846 id1848",
+            "id" : "id1849",
+            "name" : "L-BRACKET_ASM",
+            "shape" : "id1876",
+            "step" : "part_L-BRACKET_ASM.stp"
+         },
+         {
+            "id" : "id1847",
+            "name" : "BOLT",
+            "shape" : "id1842",
+            "step" : "part_BOLT.stp"
+         },
+         {
+            "id" : "id1846",
+            "name" : "L-BRACKET",
+            "shape" : "id1841",
+            "step" : "part_L-BRACKET.stp"
+         },
+         {
+            "id" : "id1848",
+            "name" : "NUT",
+            "shape" : "id1843",
+            "step" : "part_NUT.stp"
+         },
+         {
+            "id" : "id1845",
+            "name" : "PLATE",
+            "shape" : "id1840",
+            "step" : "part_PLATE.stp"
+         },
+         {
+            "id" : "id1850",
+            "name" : "ROD",
+            "shape" : "id1844",
+            "step" : "part_ROD.stp"
+         }
+      ],
+      "shape" : [
+         {
+            "child" : [
+               {
+                  "ref" : "id1840",
+                  "xform" : "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+               },
+               {
+                  "ref" : "id1876",
+                  "xform" : "0 0 1 0 0 1 0 0 -1 0 0 0 35 0 1.06581436544e-014 1"
+               },
+               {
+                  "ref" : "id1876",
+                  "xform" : "0 0 -1 0 0 1 0 0 1 0 0 0 -135 0 -1.421085209721e-014 1"
+               },
+               {
+                  "ref" : "id1844",
+                  "xform" : "1 0 0 0 0 1 0 0 0 0 1 0 -152 40 -9.314770914806e-014 1"
+               }
+            ],
+            "id" : "id1875",
+            "unit" : "in 0.025400"
+         },
+         {
+            "id" : "id1840",
+            "shell" : "id1473",
+            "unit" : "in 0.025400"
+         },
+         {
+            "child" : [
+               {
+                  "ref" : "id1841",
+                  "xform" : "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+               },
+               {
+                  "ref" : "id1842",
+                  "xform" : "-1 0 0 0 0 -1 0 0 0 0 1 0 0 10 20 1"
+               },
+               {
+                  "ref" : "id1842",
+                  "xform" : "-1 0 0 0 0 -1 0 0 0 0 1 0 -12.99038105677 10 42.5 1"
+               },
+               {
+                  "ref" : "id1842",
+                  "xform" : "-1 0 0 0 0 -1 0 0 0 0 1 0 12.99038105677 10 42.5 1"
+               },
+               {
+                  "ref" : "id1843",
+                  "xform" : "-1 0 0 0 0 0 1 0 0 1 0 0 0 40 0 1"
+               }
+            ],
+            "id" : "id1876",
+            "unit" : "in 0.025400"
+         },
+         {
+            "id" : "id1841",
+            "shell" : "id1474",
+            "unit" : "in 0.025400"
+         },
+         {
+            "id" : "id1842",
+            "shell" : "id1475",
+            "unit" : "in 0.025400"
+         },
+         {
+            "id" : "id1843",
+            "shell" : "id1476",
+            "unit" : "in 0.025400"
+         },
+         {
+            "id" : "id1844",
+            "shell" : "id1477",
+            "unit" : "in 0.025400"
+         }
+      ],
+      "shell" : [
+         {
+            "area" : 70025.232813281036,
+            "bbox" : "-140 -20 -75 40 0 75",
+            "href" : "shell_id1473.JSON",
+            "id" : "id1473",
+            "size" : 372
+         },
+         {
+            "area" : 24636.284569119074,
+            "bbox" : "-50 0 0 50 60 50",
+            "href" : "shell_id1474.JSON",
+            "id" : "id1474",
+            "size" : 448
+         },
+         {
+            "area" : 1652.8302032055954,
+            "bbox" : "-7.5 -3 -7.5 7.5 37 7.5",
+            "href" : "shell_id1475.JSON",
+            "id" : "id1475",
+            "size" : 276
+         },
+         {
+            "area" : 6264.3562740787456,
+            "bbox" : "0 -5 -5 200 5 5",
+            "href" : "shell_id1477.JSON",
+            "id" : "id1477",
+            "size" : 40
+         },
+         {
+            "area" : 748.02419710347567,
+            "bbox" : "-10 -3 -7.5 10 0 7.5",
+            "href" : "shell_id1476.JSON",
+            "id" : "id1476",
+            "size" : 228
+         }
+      ]
+   }
+}
